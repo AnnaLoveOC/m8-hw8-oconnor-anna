@@ -131,3 +131,9 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
+
+/* === Media Query === */
+
+@media screen and (max-width: 500px) {
+  
+}
