@@ -138,7 +138,7 @@ footer {
 
 @media screen and (max-width: 500px) {
   
-/* === Header Links === */
+/* === PART 1: Header Links === */
   
   /* change flex direction */
   nav {
@@ -160,6 +160,13 @@ footer {
 
 header {
   padding: 12px 0;
+}
+
+
+/* === PART 2: Fix Article Image Padding === */
+
+main article {
+  padding: 48px 8px;
 }
 
 } 
