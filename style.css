@@ -169,4 +169,21 @@ main article {
   padding: 48px 8px;
 }
 
+
+/* === PART 3: Fix Hero === */
+
+main > section.hero {
+  height: auto;
+  min-height: 320px;
+}
+
+section.hero > .call-to-action {
+  font-size: 1.85rem;
+  line-height: 3rem;
+  max-width: 28ch;
+
+}
+
+
+
 } 
