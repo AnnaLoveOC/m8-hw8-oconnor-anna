@@ -132,8 +132,34 @@ footer {
   color: var(--off-white);
 }
 
-/* === Media Query === */
+/* =====================================
+            MEDIA QUERIES
+ ==================================== */
 
 @media screen and (max-width: 500px) {
   
+/* === Header Links === */
+  
+  /* change flex direction */
+  nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* fix item spacing and alignment */
+
+  nav > a.logo {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  nav > a:not(:first-of-type){
+  margin-left: 0px;
 }
+
+header {
+  padding: 12px 0;
+}
+
+} 
