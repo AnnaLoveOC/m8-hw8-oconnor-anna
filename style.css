@@ -156,34 +156,50 @@ footer {
 
   nav > a:not(:first-of-type){
   margin-left: 0px;
-}
+  }
 
-header {
+  header {
   padding: 12px 0;
 }
 
 
 /* === PART 2: Fix Article Image Padding === */
 
-main article {
-  padding: 48px 8px;
-}
+  main article {
+    padding: 48px 8px;
+  }
 
 
 /* === PART 3: Fix Hero === */
 
-main > section.hero {
-  height: auto;
-  min-height: 320px;
+  main > section.hero {
+    height: auto;
+    min-height: 320px;
+  }
+
+  section.hero > .call-to-action {
+    font-size: 1.85rem;
+    line-height: 3rem;
+    max-width: 28ch;
+  }
+
+
+/* === PART 4: Center the Article Image === */
+
+  main > article img {
+    float: none;
+    display: block;
+    margin: 0 auto 24px auto;
+  }
+  
+
+  /* === PART 5: Decreasing Bottom Margins === */
+  
+  main p {
+    margin-bottom: 24px;
+  }
+
+  main > section, main > article {
+    margin-bottom: 12px;
+  }
 }
-
-section.hero > .call-to-action {
-  font-size: 1.85rem;
-  line-height: 3rem;
-  max-width: 28ch;
-
-}
-
-
-
-} 
